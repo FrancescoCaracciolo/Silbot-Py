@@ -2,7 +2,7 @@ import silbot
 from silbot.helper import *
 
 token = "12345:sadsfsdfsdfsd"  # Put bot token here
-bot = silbot.botapi.botApi(token, "HTML")
+bot = silbot.botapi.BotApi(token, "HTML")
 
 r, response = bot.getMe()
 
